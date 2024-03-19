@@ -27,6 +27,7 @@ off_when_shutdown = True
 on_when_job_queued = True
 locked_while_printing = True
 restart_klipper_when_powered = True
+initial_state = off
 pin = gpio26
 bound_services = 
 	klipper
