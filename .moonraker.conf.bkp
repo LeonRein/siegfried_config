@@ -47,6 +47,12 @@ path = ~/mainsail-config
 origin = https://github.com/mainsail-crew/mainsail-config.git
 managed_services = klipper
 
+[update_manager katapult]
+type = git_repo
+path = ~/katapult
+origin = https://github.com/Arksine/katapult
+is_system_service = False
+
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
